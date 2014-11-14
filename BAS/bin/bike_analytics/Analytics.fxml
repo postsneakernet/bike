@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bike_analytics.AnalyticsController">
+<children><AnchorPane prefHeight="600.0" prefWidth="800.0">
+<children><BorderPane prefHeight="600.0" prefWidth="800.0">
+<top><HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+<children><Label fx:id="labelTitle" prefHeight="16.0" prefWidth="152.0" text="Label">
+<HBox.margin>
+<Insets left="10.0" top="35.0" />
+</HBox.margin></Label><Button fx:id="buttonMain" mnemonicParsing="false" onAction="#handleMain" text="Main">
+<HBox.margin>
+<Insets top="35.0" />
+</HBox.margin></Button><Button fx:id="buttonSettings" mnemonicParsing="false" onAction="#handleSettings" text="Settings" HBox.hgrow="ALWAYS">
+<HBox.margin>
+<Insets left="450.0" top="35.0" />
+</HBox.margin></Button>
+</children></HBox>
+</top>
+<bottom><HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+</bottom></BorderPane>
+</children></AnchorPane>
+</children></AnchorPane>
