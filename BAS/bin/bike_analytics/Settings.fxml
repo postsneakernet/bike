@@ -8,23 +8,24 @@
 <AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bike_analytics.SettingsController">
 <children><AnchorPane prefHeight="600.0" prefWidth="800.0">
 <children><BorderPane prefHeight="600.0" prefWidth="800.0">
-<top><HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
-<children><Label fx:id="labelTitle" prefHeight="16.0" prefWidth="152.0" text="Label">
+<top>
+<AnchorPane prefHeight="56.0" prefWidth="800.0">
+<children><Label fx:id="labelTitle" layoutX="80.0" layoutY="27.0" prefHeight="16.0" prefWidth="152.0" text="Label">
 <HBox.margin>
 <Insets left="10.0" top="35.0" />
-</HBox.margin></Label><Button fx:id="buttonMain" mnemonicParsing="false" onAction="#handleMain" text="Main">
+</HBox.margin></Label><Button fx:id="buttonMain" layoutX="26.0" layoutY="21.0" mnemonicParsing="false" onAction="#handleMain" text="Main">
 <HBox.margin>
 <Insets top="35.0" />
-</HBox.margin></Button><Button fx:id="buttonAnalytics" mnemonicParsing="false" onAction="#handleAnalytics" text="Analytics">
+</HBox.margin></Button><Button fx:id="buttonAnalysis" layoutX="704.0" layoutY="19.0" mnemonicParsing="false" onAction="#handleAnalysis" text="Analysis">
 <HBox.margin>
 <Insets left="35.0" top="35.0" />
-</HBox.margin></Button><Button fx:id="buttonSettings" mnemonicParsing="false" onAction="#handleSettings" text="Settings" HBox.hgrow="ALWAYS">
-<HBox.margin>
-<Insets left="400.0" top="35.0" />
 </HBox.margin></Button>
-</children></HBox>
+</children>
+</AnchorPane>
 </top>
-<bottom><HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+<bottom><AnchorPane prefHeight="46.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+<children><Label layoutX="345.0" layoutY="15.0" text="Bike Analytics v. 0.01" />
+</children></AnchorPane>
 </bottom></BorderPane>
 </children></AnchorPane>
 </children></AnchorPane>

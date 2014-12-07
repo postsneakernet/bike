@@ -43,9 +43,9 @@ public class Main extends Application {
 		}
 	}
 	
-	public void goToAnalytics() {
+	public void goToAnalysis() {
 		try {
-			AnalyticsController gui = (AnalyticsController) replaceSceneContent("Analytics.fxml");
+			AnalysisController gui = (AnalysisController) replaceSceneContent("Analysis.fxml");
 			gui.setApp(this);
 		}
 		catch (Exception e) {

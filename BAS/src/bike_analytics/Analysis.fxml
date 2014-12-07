@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bike_analytics.AnalysisController">
+<children><AnchorPane prefHeight="600.0" prefWidth="800.0">
+<children><BorderPane prefHeight="600.0" prefWidth="800.0">
+<top>
+<AnchorPane prefHeight="65.0" prefWidth="799.0" style="-fx-background-color: #56606B;">
+<children><Button fx:id="buttonSettings" layoutX="707.0" layoutY="20.0" mnemonicParsing="false" onAction="#handleSettings" text="Settings" HBox.hgrow="ALWAYS">
+<HBox.margin>
+<Insets left="450.0" top="35.0" />
+</HBox.margin></Button><Button fx:id="buttonMain" layoutX="22.0" layoutY="20.0" mnemonicParsing="false" onAction="#handleMain" text="Main">
+<HBox.margin>
+<Insets top="35.0" />
+</HBox.margin></Button><Label fx:id="labelTitle" layoutX="78.0" layoutY="26.0" prefHeight="16.0" prefWidth="152.0" style="-fx-text-fill: #97D077;" text="Title">
+<HBox.margin>
+<Insets left="10.0" top="35.0" />
+</HBox.margin></Label>
+</children>
+</AnchorPane>
+</top>
+<center>
+<AnchorPane prefHeight="494.0" prefWidth="559.0" style="-fx-border-color: black;">
+<children><HBox layoutX="-4.0" prefHeight="30.0" prefWidth="541.0">
+<children>
+<AnchorPane prefHeight="30.0" prefWidth="542.0" style="-fx-background-color: #56606B; -fx-border-color: black;">
+<children><Label fx:id="labelDate" layoutX="212.0" layoutY="7.0" style="-fx-text-fill: #97D077;" text="Ride Date" />
+</children>
+</AnchorPane>
+</children></HBox><Label fx:id="labelDistance" layoutX="92.0" layoutY="38.0" text="Distance:" /><Label fx:id="labelOdometer" layoutX="302.0" layoutY="38.0" text="Odometer-to-Date:" /><Label fx:id="labelMaxSpeed" layoutX="302.0" layoutY="56.0" text="Maximum Speed:" /><Label fx:id="labelAvgSpeed" layoutX="92.0" layoutY="56.0" text="Average Speed:" /><Label fx:id="labelAvgCad" layoutX="92.0" layoutY="73.0" text="Average Cadence:" /><Label fx:id="labelMaxCad" layoutX="302.0" layoutY="73.0" text="Maximum Cadence:" /><Label fx:id="labelRideTime" layoutX="92.0" layoutY="90.0" text="Ride Time:" /><LineChart fx:id="lineChartRide" layoutX="7.0" layoutY="98.0" prefHeight="385.0" prefWidth="521.0">
+  <xAxis>
+    <NumberAxis label="seconds" side="BOTTOM" />
+  </xAxis>
+  <yAxis>
+    <NumberAxis side="LEFT" />
+  </yAxis>
+</LineChart>
+</children>
+</AnchorPane>
+</center>
+<left>
+<AnchorPane prefHeight="443.0" prefWidth="261.0" style="-fx-background-color: #E6E6E6; -fx-border-color: black;">
+<children><ComboBox fx:id="comboBoxFilter" layoutX="58.0" layoutY="57.0" prefWidth="150.0" /><Label fx:id="labelDirectory" layoutX="23.0" layoutY="34.0" prefHeight="16.0" prefWidth="237.0" text="No directory selected">
+<font>
+<Font size="10.0" />
+</font></Label><Button fx:id="buttonDirectory" layoutX="22.0" layoutY="7.0" mnemonicParsing="false" onAction="#handleDirectory" text="Directory" /><ListView fx:id="listViewRides" layoutX="21.0" layoutY="94.0" prefHeight="338.0" prefWidth="228.0" BorderPane.alignment="CENTER" />
+</children>
+</AnchorPane>
+</left>
+<bottom><AnchorPane prefHeight="41.0" prefWidth="810.0" style="-fx-background-color: #56606B;" BorderPane.alignment="CENTER">
+<children><Label fx:id="labelVersion" layoutX="344.0" layoutY="12.0" style="-fx-text-fill: #97D077;" text="Bike Analytics v. 0.01" />
+</children></AnchorPane>
+</bottom></BorderPane>
+</children></AnchorPane>
+</children></AnchorPane>

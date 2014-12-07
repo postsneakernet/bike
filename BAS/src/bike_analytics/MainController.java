@@ -18,7 +18,7 @@ public class MainController extends AnchorPane implements Initializable {
 	@FXML
 	private Button buttonSettings;
 	@FXML
-	private Button buttonAnalytics;
+	private Button buttonAnalysis;
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
@@ -27,8 +27,8 @@ public class MainController extends AnchorPane implements Initializable {
 	}
 	
 	@FXML
-	public void handleAnalytics(ActionEvent event) {
-		application.goToAnalytics();
+	public void handleAnalysis(ActionEvent event) {
+		application.goToAnalysis();
 	}
 	
 	@FXML

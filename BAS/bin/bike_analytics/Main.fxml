@@ -12,7 +12,7 @@
 <children><Label fx:id="labelTitle" text="Label">
 <HBox.margin>
 <Insets left="10.0" top="35.0" />
-</HBox.margin></Label><Button fx:id="buttonAnalytics" mnemonicParsing="false" onAction="#handleAnalytics" text="Analytics">
+</HBox.margin></Label><Button fx:id="buttonAnalysis" mnemonicParsing="false" onAction="#handleAnalysis" text="Analysis">
 <HBox.margin>
 <Insets left="60.0" top="35.0" />
 </HBox.margin></Button><Button fx:id="buttonSettings" mnemonicParsing="false" onAction="#handleSettings" text="Settings" HBox.hgrow="ALWAYS">

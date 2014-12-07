@@ -16,27 +16,20 @@ public class SettingsController extends AnchorPane implements Initializable {
 	@FXML
 	private Label labelTitle;
 	@FXML
-	private Button buttonSettings;
-	@FXML
 	private Button buttonMain;
 	@FXML
-	private Button buttonAnalytics;
+	private Button buttonAnalysis;
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
-		// TODO Auto-generated method stub
 		labelTitle.setText("Bike Analytics::Settings");
 	}
 	
 	@FXML
-	private void handleAnalytics(ActionEvent event) {
-		application.goToAnalytics();
+	private void handleAnalysis(ActionEvent event) {
+		application.goToAnalysis();
 	}
 	
-	@FXML
-	private void handleSettings(ActionEvent event) {
-		application.goToSettings();
-	}
 	
 	@FXML
 	private void handleMain(ActionEvent event) {

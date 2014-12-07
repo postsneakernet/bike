@@ -3,5 +3,8 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/elliot/Dropbox/eclipsespace/rmbp/bike/BAS/jackson-annotations-2.4.4.jar"/>
+	<classpathentry kind="lib" path="/Users/elliot/Dropbox/eclipsespace/rmbp/bike/BAS/jackson-core-2.4.4.jar"/>
+	<classpathentry kind="lib" path="/Users/elliot/Dropbox/eclipsespace/rmbp/bike/BAS/jackson-databind-2.4.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
