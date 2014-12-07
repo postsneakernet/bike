@@ -1,0 +1,31 @@
+{
+  "averages":[
+    {"speed":20, "cadence":85},
+    {"speed":25, "cadence":94},
+    {"speed":22, "cadence":88},
+    {"speed":26, "cadence":91},
+    {"speed":18, "cadence":78},
+    {"speed":16, "cadence":65},
+    {"speed":21, "cadence":50},
+    {"speed":25, "cadence":87},
+    {"speed":24, "cadence":85},
+    {"speed":28, "cadence":93},
+    {"speed":31, "cadence":89},
+    {"speed":15, "cadence":64},
+    {"speed":19, "cadence":82},
+    {"speed":26, "cadence":110},
+    {"speed":22, "cadence":89},
+    {"speed":22, "cadence":79},
+    {"speed":17, "cadence":76},
+    {"speed":12, "cadence":45},
+    {"speed":10, "cadence":52},
+    {"speed":20, "cadence":91},
+    {"speed":23, "cadence":97}
+  ],
+  "distance":65,
+  "odometer":1500,
+  "maxSpeed":31,
+  "maxCadence":110,
+  "rideDate":"12/05/2014",
+  "rideTime":"02:28:46"
+}

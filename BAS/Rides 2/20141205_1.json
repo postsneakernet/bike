@@ -1,0 +1,13 @@
+{
+  "averages":[
+    {"speed":20, "cadence":85},
+    {"speed":25, "cadence":90},
+    {"speed":20, "cadence":95}
+  ],
+  "distance":65,
+  "odometer":1500,
+  "maxSpeed":30,
+  "maxCadence":110,
+  "rideDate":"12/05/2014",
+  "rideTime":"02:28:46"
+}
